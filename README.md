@@ -15,15 +15,19 @@ With the increasing amount of information available in PDF format, it is essenti
 Clone the Repository
 
 git clone https://github.com/Sugra-shaikh/wasserstoff-AiInternTask.git
+
 cd wasserstoff-AiInternTask
 
 System Requirements
 
 Minimum 4 GB RAM
+
 CPU from within 10 years
+
 GPU (for faster processing speed; not mandatory)
 
 Dependencies
+
 Install required libraries using the following code in cmd:
 
 pip install -r requirements.txt
@@ -36,6 +40,7 @@ Execute the main script:
 python launch.py
 
 Explanation of the Solution
+
 The project consists of several modules that work together to achieve the desired functionality: - launch.py: Launching point for the app - summary_and_keywords.py: Contains functions to clean text, split text into manageable chunks, summarize those chunks, and extract keywords. - mongoDB_setup.py: Handles the connection and setup for the MongoDB database. - file_and_db_ops.py: Manages file operations (reading PDF files) and interactions with the database (inserting summaries and keywords). - talk2db.py: Interfaces with the MongoDB database for data retrieval and storage. - reporting.py: Generates performance reports for the processing pipeline.
 
 Key Features
