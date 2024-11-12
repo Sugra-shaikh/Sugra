@@ -1,4 +1,4 @@
-wasserstoff-AiInternTask
+WASSERSTOFF-AiIntern Task 
 AI Internship Task Submission for Qualification
 
 PDF Summarization and Keyword Extraction Pipeline
